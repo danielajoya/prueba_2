@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400,900i&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+}
+footer{
+	background-color: #fff;
+	padding: 25px 0;
+	border-top: 1px solid #f6f6f6;
+	color: #333;
+	text-align: center;
+}
+footer img {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.carousel-caption{
+	
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+.carousel-caption h2{
+	color: #fff;
+	font-weight: 900;
+	font-size: 54px;
+}
+.carousel-caption span{
+	color: #FF9306;
+	font-size: 45px;
+	font-weight: 300;
+	padding: 0;
+	text-transform: uppercase;
+}
+.carousel-caption h3{
+	font-style: italic;
+	font-weight: 300;
+}
+#welcome{
+	background-image: url("../img/bg_pic2.jpg");
+	background-position: right;
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+.title{
+	text-align: center;
+	font-weight: 900;
+	font-style: italic;
+	padding-top: 50px;
+}
+.subtitle{
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+	
+}
+#oven .title{
+	color: #fff;
+	
+}
+
+#oven .subtitle{
+	color: #fff;
+}
+#sorrows .title{
+	color: #fff;
+
+}
+#sorrows .subtitle{
+	color: #fff;
+}
+#oven{
+background-image: url("../img/picture1.jpg");
+padding: 10% 0;
+	
+}
+
+#sorrows{
+	background-image: url("../img/bg_pic3.jpg");
+	background-repeat: repeat-x;
+	padding: 10% 0;
+}
+.btn-primary{
+	color: #fff;
+	background-color: #FF9306;
+	border-radius: 0;
+	
+}
